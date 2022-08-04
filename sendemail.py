@@ -6,9 +6,9 @@ import pandas as pd
 
 
 def send_email(data):
-    addr_from = "sysoevdaniil@mail.ru"
-    addr_to = "cryp.sys.d@mail.ru"
-    password = "QauKPLfjw9irFk9u51Ny"
+    addr_from = ""
+    addr_to = ""
+    password = ""
 
     file = "тест.xlsx"
     blank = {"Клиент": [data[0]], "Название угля": [data[1]], "Количество угля": [data[2]], "Способ оплаты": [data[3]], "Сумма оплаты": [data[4]], "Адрес": [data[5]], "Время": [data[6]], "Телефон": [data[7]], "Комментарий": [data[8]]}
