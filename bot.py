@@ -3,7 +3,7 @@ from telebot import types
 from listofnames import Names
 from sendemail import send_email
 
-Token = "5519023847:AAEAFMCXbeaQDdd1Sx5WWerJQw7WiLp5lYo"
+Token = ""
 bot = telebot.TeleBot(Token)
 
 
